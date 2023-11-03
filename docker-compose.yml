@@ -3,7 +3,7 @@ services:
   jupyter:
     build: .
     volumes:
-      - /Users/jeremyok/code/intro-to-ai/uni:/home/jovyan/work
+      - ./assignment:/home/jovyan/
     ports:
       - 8888:8888
     container_name: jupyter_notebook

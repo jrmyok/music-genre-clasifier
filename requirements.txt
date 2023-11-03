@@ -5,3 +5,8 @@ networkx
 ipython
 ipywidgets
 nbformat
+scikit-learn
+librosa
+SoundFile
+tqdm
+tensorflow

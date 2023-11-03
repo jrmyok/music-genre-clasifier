@@ -5,3 +5,5 @@
 Data
 lab*
 .DS_Store
+data.json
+mfcc_pickle.pkl
