@@ -1,0 +1,7 @@
+.ipynb_checkpoints
+./uni/lab*
+./graphSource.py
+.env
+Data
+lab*
+.DS_Store

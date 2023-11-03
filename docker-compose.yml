@@ -1,0 +1,12 @@
+version: '3'
+services:
+  jupyter:
+    build: .
+    volumes:
+      - /Users/jeremyok/code/intro-to-ai/uni:/home/jovyan/work
+    ports:
+      - 8888:8888
+    container_name: jupyter_notebook
+    env_file:
+      - .env
+    command: "start-notebook.sh --NotebookApp.token=${NOTEBOOK_TOKEN} --NotebookApp.allow_origin='*' --NotebookApp.ip='0.0.0.0'"
