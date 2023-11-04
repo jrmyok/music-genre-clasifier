@@ -11,7 +11,7 @@ cp .env.example .env
 2. Build and start the project using Docker Compose.
 
 ```bash
-Build and start the project using Docker Compose.
+docker-compose up --build
 ```
 
 ## Connection
